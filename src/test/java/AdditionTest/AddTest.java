@@ -12,5 +12,11 @@ public class AddTest {
 		Adder adder = new Adder();
 		assertEquals(adder.add(0, 1), 1);
 	}
+	
+	@Test
+	public void testAddWithOne() {
+		Adder adder = new Adder();
+		assertEquals(adder.add(1, 1), 2);
+	}
 
 }
