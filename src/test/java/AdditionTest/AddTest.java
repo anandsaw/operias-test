@@ -7,10 +7,6 @@ import org.junit.Test;
 import Addition.Adder;
 
 public class AddTest {
-	@Test
-	public void testAddWithZero() {
-		Adder adder = new Adder();
-		assertEquals(adder.add(0, 1), 1);
-	}
+	
 
 }
